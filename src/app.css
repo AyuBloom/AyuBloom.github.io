@@ -1,18 +1,18 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @plugin '@tailwindcss/typography';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/container-queries';
 
 @theme {
-  --color-*: initial;
-  --color-background: rgb(22 22 31);
-  --color-foreground: rgb(26 27 38);
-  --color-text: rgb(154 165 206);
-  --color-highlight: rgb(192 202 245);
-  --color-accent: rgb(122 162 247);
-  --color-comment: rgb(86 95 137);
-  --color-keyword: rgb(187 154 247);
+    --color-*: initial;
+    --color-background: rgb(22 22 31);
+    --color-foreground: rgb(26 27 38);
+    --color-text: rgb(154 165 206);
+    --color-highlight: rgb(192 202 245);
+    --color-accent: rgb(122 162 247);
+    --color-comment: rgb(86 95 137);
+    --color-keyword: rgb(187 154 247);
 }
 
 /*
@@ -24,13 +24,13 @@
   color utility to any element that depends on these defaults.
 */
 @layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
-  }
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentColor);
+    }
 }
 
 @font-face {

@@ -22,7 +22,7 @@
 {/await}
 
 <style lang="postcss">
-    @reference "tailwindcss/theme";
+    @reference "../../../app.css";
 
     div :global(h1) {
         @apply text-5xl text-accent mb-3;

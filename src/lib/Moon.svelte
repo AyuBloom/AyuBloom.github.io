@@ -35,7 +35,6 @@
             // charArray.push("\n");
             lines.push(charArray);
         }
-        console.log(lines);
         return lines;
     }
 </script>
