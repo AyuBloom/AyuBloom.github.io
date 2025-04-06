@@ -1,6 +1,8 @@
 <script lang="ts">
     // @ts-nocheck
 
+    export const prerender = true;
+
     import "../app.css";
 
     import { page } from "$app/state";
