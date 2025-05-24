@@ -5,8 +5,6 @@
     setInterval(() => {
         isBlinkerVisible = !isBlinkerVisible;
     }, 0.75e3);
-
-    console.log(page.url.pathname.split("/"));
 </script>
 
 <!-- <div class="flex flex-col"> -->
