@@ -9,9 +9,5 @@
     <div class="flex flex-col mt-4 text-text text-2xl [&_:is(li)]:mb-2">
         <NavLink href="/about" name="About" />
         <NavLink href="/blog" name="Blogs" />
-        <NavLink
-            href="https://music.apple.com/vn/artist/yuce/926151076"
-            name="Today's jam"
-        />
     </div>
 </div>
