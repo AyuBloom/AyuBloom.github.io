@@ -1,1 +1,1 @@
-{"type":"data","nodes":[null,{"type":"data","data":[{"blog":1},"Not found"],"uses":{"params":["id"]}}]}
+{"type":"data","nodes":[null,{"type":"data","data":[{"blog":1},"# first blog, who's this?\nwelcome to my website! a **personal** one, i guess.\nthis is just a blog to announce my new website. so welcome (again)!\n"],"uses":{"params":["id"]}}]}
